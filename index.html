@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Administrate Coding Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="HTML, CSS, JavaScript, JSON">
+  <meta name="description" content="Address Book Application">
+
+  <link href="./styles/addressBookStyles.css" rel="stylesheet">
+</head>
+
+<body onload="init()">
+  <div id="content">
+    <h1> Address Book </h1>
+    <button id="retrieveData"> Print Address Book </button>
+    <br>
+    <input type="text" id="nameInput" placeholder="Full Name"></input>
+    <br>
+    <input type="text" id="companyInput" placeholder="Company" > </input>
+    <br>
+    <input type="text"  id="addressInput" placeholder="Address"></input>
+    <br>
+    <input type="text" id="phoneInput" placeholder="Phone Number"> </input>
+    <br>
+    <input type="text" id="emailInput" placeholder="Email address"></input>
+    <br>
+    <button id="addNewBtn"> Add New Record </button>
+    <a href='./editExistingRecord.html'><button id="editExistingBtn"> Edit Existing Record </button></a>
+  </div>
+  <div id="container">
+    <p id="textOutput"> </p>
+  </div>
+
+  <script src='./js/main.js'></script>
+</body>
+</HTML>

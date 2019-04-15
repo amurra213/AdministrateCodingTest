@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Administrate Coding Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="HTML, CSS, JavaScript, JSON">
+  <meta name="description" content="Address Book Application">
+
+  <link href="./styles/addressBookStyles.css" rel="stylesheet">
+</head>
+<body>
+  <div id="content">
+    <h1> Edit Record </h1>
+    <br>
+    <h2> Please select whether you want to update an existing record by the name
+        of the individual(s), or by the company. Afterwards, you should enter
+        the updated details and click "Update Record"
+     </h2>
+     <br>
+     <input type="radio" id="nameBtn" name="userOpt"> Name </button>
+     <input type="radio" id="companyBtn" name="userOpt"> Company </button>
+     <br>
+    <input type="text" id="nameSearchInput" placeholder="Full Name"></input>
+    <br>
+    <input type="text" id="companySearchInput" placeholder="Company" > </input>
+    <br>
+    <input type="text"  id="newAddressInput" placeholder="Address"></input>
+    <br>
+    <input type="text" id="newPhoneInput" placeholder="Phone Number"> </input>
+    <br>
+    <input type="text" id="newEmailInput" placeholder="Email address"></input>
+    <br>
+    <button id="deleteButton" onclick="deleteRecord()"> Delete </button>
+    <button id="updateButton" onclick="updateRecord()"> Update Record </button>
+        <a href='./index.html'><button id="editExistingBtn"> Back </button></a>
+  </div>
+
+  <p id="textOutput"> </p>
+
+  <script src='./js/main.js'></script>
+</body>
