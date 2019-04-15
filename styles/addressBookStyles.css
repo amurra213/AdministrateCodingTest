@@ -9,6 +9,12 @@ body{
 h1{
   color: FloralWhite;
 }
+h2{
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  margin-left: auto;
+}
 input{
   margin:0.25rem;
   padding: 0.25rem;
